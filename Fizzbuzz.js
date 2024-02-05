@@ -6,7 +6,7 @@ function Fizzbuzz() {
         } else if (i % 5 == 0) {
             Msg = "Buzz";
         } else {
-            Msg = i
+            Msg = i;
         }
         console.log(Msg);
     }
