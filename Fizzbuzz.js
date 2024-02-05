@@ -1,17 +1,21 @@
 function Fizzbuzz() {
     var Msg = "";
     for(var i=1; i<100; i++) {
-        if(i % 3 == 0) {
-            Msg = "Fizz";
-        } else if (i % 5 == 0) {
-            Msg = "Buzz";
-        } else {
-            Msg = i;
-        }
-        console.log(Msg);
+        if (i % 3 === 0) {
+            console.log("Fizz");
+          } else if (i % 5 === 0) {
+            console.log("buzz");
+          } else if (i % 3 === 0 && i % 5 === 0) {
+            console.log("Fizzbuzz");
+          } else {
+            console.log(i);
+          }
     }
 }
 
 Fizzbuzz();
+
+
+  
 
 
